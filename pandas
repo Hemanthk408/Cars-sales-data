@@ -1,0 +1,4 @@
+#Opening the file
+
+import pandas as pd
+df=pd.read_csv("C:\Users\DELL\Downloads\Car_sales.csv")
