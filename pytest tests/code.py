@@ -1,11 +1,9 @@
-#Opening the file
-
+#To Opening the file pandas package is import
 import pandas as pd
 df=pd.read_csv("https://github.com/Hemanthk408/Cars-sales-data/blob/main/Car_sales.csv")
 #print(df) or only type df for showing the table
 df
 
-#After that cleaning the data
 # Check the first few rows for columns title
 print(df.head())
 
@@ -15,7 +13,7 @@ print(df.info())
 # Check for missing values if any 0 or NAN value are in the data this code will show the count of that
 print(df.isnull().sum())
 
-## Fill missing values with a default value
+# Fill missing values with a default value
 df['ColumnName'] = df['ColumnName'].fillna('DefaultValue')
 
 # Drop rows with missing values
