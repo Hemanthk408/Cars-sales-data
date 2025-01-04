@@ -21,3 +21,6 @@ df = df.dropna()
 
 # Data is have any duplicates this code will drop the duplicate in this code keep=first is keep the first duplicte with out droping
 df = df.drop_duplicates(keep="first")
+
+#after drop the null values checking the table
+df.info()
